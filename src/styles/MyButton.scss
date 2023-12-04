@@ -1,6 +1,8 @@
+@import "colorvar";
+
 .btn__purple{
   cursor: pointer;
-  color: #665CD1;
+  color: $primarycolor;
   text-align: center;
   font-family: Mulish, sans-serif;
   font-size: 16px;
@@ -8,7 +10,7 @@
   padding: 10px 15px;
   border-radius: 35px;
   border: none;
-  background-color: #F1F0FF;
+  background-color: $secondarycolor;
   box-shadow: 0 5px 6px 0 rgba(45, 33, 54, 0.10);
 }
 

@@ -1,0 +1,29 @@
+@import "colorvar";
+
+.point__item {
+  margin-top: 10px;
+  border: 1px solid #C4C4C4;
+  border-radius: 10px;
+}
+
+.point__inner {
+  padding: 15px;
+}
+
+.point__title {
+  font-family: Mulish, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.map__icon{
+  position: absolute;
+  bottom: 0;
+  right: -14%;
+  cursor: pointer;
+  width: 25px;
+  height: 25px;
+  background: url('../img/map-icon.png'), #fff 50% / cover no-repeat;
+}

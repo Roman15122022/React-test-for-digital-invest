@@ -1,0 +1,36 @@
+@import "colorvar";
+
+.cargo {
+  margin-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #C4C4C4;
+}
+
+.cargo__title {
+  color: $primarycolor;
+  font-family: Mulish, sans-serif;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.cargo__container{
+  margin-top: 15px;
+  display: flex;
+  justify-content: flex-start;
+}
+.cargo__item:last-child{
+  margin-left: 50px;
+}
+
+.area__title{
+  margin-top: 20px;
+  margin-bottom: 5px;
+  color: #5A5A5A;
+  font-family: Mulish, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}

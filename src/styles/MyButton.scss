@@ -1,0 +1,18 @@
+.btn__purple{
+  cursor: pointer;
+  color: #665CD1;
+  text-align: center;
+  font-family: Mulish, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 10px 15px;
+  border-radius: 35px;
+  border: none;
+  background-color: #F1F0FF;
+  box-shadow: 0 5px 6px 0 rgba(45, 33, 54, 0.10);
+}
+
+.btn__purple:hover{
+  transition: all .2s linear;
+  background-color: #e5e2ff;
+}

@@ -15,6 +15,7 @@ const Cargo = () => {
                     label="Вага вантажу(кг)"
                     variant="standard"
                     color="secondary"
+                    style={{width: '280px'}}
                     focused
                 />
                 </div>

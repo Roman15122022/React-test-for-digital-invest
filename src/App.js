@@ -4,6 +4,7 @@ import Header from "./components/Header";
 import Route from "./components/Route";
 import Cargo from "./components/Cargo";
 import Forwarding from "./components/Forwarding";
+import Contact from "./components/Contact";
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
                     <div className="main__settings"><Route/></div>
                     <div className="main__aboutCargo"><Cargo/></div>
                     <div><Forwarding/></div>
+                    <div><Contact/></div>
                 </div>
                 <div className="main__item">
                     <div className="main__map-information">123</div>

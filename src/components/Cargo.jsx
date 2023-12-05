@@ -2,12 +2,13 @@ import React from 'react';
 import '../styles/Cargo.scss';
 import {TextField, Typography} from "@mui/material";
 import InputForCargo from "../Inputs/InputForCargo";
+import Title from "../title/title";
 
 
 const Cargo = () => {
     return (
         <section className='cargo'>
-            <h4 className="cargo__title">Про вантаж</h4>
+            <Title name='Про вантаж'/>
             <div className="cargo__container">
                 <div className="cargo__item">
                     <TextField

@@ -1,3 +1,4 @@
+@import "colorvar";
 * {
   margin: 0;
   padding: 0;
@@ -15,7 +16,7 @@
   margin: 0 auto;
 }
 
-.title {
+.app__title {
   margin: 15px 0;
 
   color: #000;
@@ -33,4 +34,10 @@
 
 .main__item {
   width: 50%;
+}
+
+.main__map-information{
+  background-color: $secondarycolor;
+  width: 500px;
+  height: 870px;
 }

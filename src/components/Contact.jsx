@@ -1,10 +1,11 @@
 import React from 'react';
 import '../styles/Contact.scss'
 import {TextField} from "@mui/material";
+import Title from "../title/title";
 const Contact = () => {
     return (
-        <div className='contact' style={{marginBottom: '600px'}}>
-            <div className='contact__title'>Контактні дані</div>
+        <div className='contact'>
+            <Title name='Контактні дані'/>
             <div className="contact__inputs">
                 <div className="contact__item">
                     <TextField

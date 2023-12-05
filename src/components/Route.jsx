@@ -3,6 +3,7 @@ import '../styles/Route.scss';
 import MyButton from '../Buttons/MyButton';
 import StartPoint from './StartPoint';
 import NextPoints from './NextPoints';
+import Title from "../title/title";
 
 const Route = () => {
     const [pointIndex, setPointIndex] = useState(1);
@@ -13,7 +14,7 @@ const Route = () => {
 
     return (
         <section className='route'>
-            <h4 className="main__title">Маршрут</h4>
+            <Title name='Маршрут'/>
             <div className="main__box">
                 <StartPoint pointIndex={1} />
                 <NextPoints pointIndex={pointIndex} />

@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.c7db43fe.css",
-    "main.js": "/static/js/main.2bb216fd.js",
-    "index.html": "/index.html",
-    "main.c7db43fe.css.map": "/static/css/main.c7db43fe.css.map",
-    "main.2bb216fd.js.map": "/static/js/main.2bb216fd.js.map"
+    "main.css": "/Roman15122022/test-for-digital-invest-react/static/css/main.c7db43fe.css",
+    "main.js": "/Roman15122022/test-for-digital-invest-react/static/js/main.2bb216fd.js",
+    "index.html": "/Roman15122022/test-for-digital-invest-react/index.html",
+    "main.c7db43fe.css.map": "/Roman15122022/test-for-digital-invest-react/static/css/main.c7db43fe.css.map",
+    "main.2bb216fd.js.map": "/Roman15122022/test-for-digital-invest-react/static/js/main.2bb216fd.js.map"
   },
   "entrypoints": [
     "static/css/main.c7db43fe.css",

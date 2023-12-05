@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/cargo.scss';
+import '../styles/Cargo.scss';
 import {TextField, Typography} from "@mui/material";
 import InputForCargo from "../Inputs/InputForCargo";
 

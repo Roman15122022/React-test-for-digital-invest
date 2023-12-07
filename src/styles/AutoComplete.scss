@@ -1,0 +1,20 @@
+@import "colorvar";
+
+.autocompleteTable {
+  width: 75%;
+  padding: 10px;
+  border: 1px solid $secondarycolor;
+  margin-top: 5px;
+  cursor: pointer;
+  background-color: $secondarycolor;
+}
+
+
+.autocompleteTable:hover {
+  background-color: $primarycolor;
+}
+
+
+.autocompleteTable.selected {
+  background-color: #b3d4fc;
+}

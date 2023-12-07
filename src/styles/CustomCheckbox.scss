@@ -1,0 +1,52 @@
+@import "colorvar";
+
+.form__item {
+  padding: 10px;
+  font-family: Mulish, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 15px;
+  background-color: $secondarycolor;
+  display: flex;
+  align-items: center;
+}
+
+.form__item input[type="radio"] {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
+
+.form__item input[type="radio"] + label {
+  display: inline-flex;
+  align-items: center;
+  user-select: none;
+}
+
+.form__item input[type="radio"]+label::before {
+  content: '';
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border: 1px solid $primarycolor;
+  border-radius: 50%;
+  margin-right: 1em;
+}
+.form__item input[type='radio']:checked+label::before {
+  background-color: $primarycolor;
+}
+
+.visa:after {
+  content: 'Visa / MasterCard';
+  font-family: Mulish, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  color: $primarycolor;
+  position: absolute;
+  bottom: 30%;
+  right: 2%;
+}
